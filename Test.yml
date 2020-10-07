@@ -1,8 +1,7 @@
 - pipeline: "Test"
   trigger_mode: "ON_EVERY_PUSH"
-  ref_name: "dev"
+  ref_name: "master"
   ref_type: "BRANCH"
-  fetch_all_refs: true
   fail_on_prepare_env_warning: true
   trigger_condition: "ALWAYS"
   actions:
